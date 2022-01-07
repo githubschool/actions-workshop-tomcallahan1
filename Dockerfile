@@ -3,7 +3,6 @@
 ### Dockerfile to run some Some Build ###
 #########################################
 #########################################
-
 # This is a copy of the GitHub Action runner
 FROM myoung34/github-runner:latest
 
