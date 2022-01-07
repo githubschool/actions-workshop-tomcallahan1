@@ -42,4 +42,6 @@ jobs:
     - name: Dump steps context
       env:
         STEPS_CONTEXT: ${{ toJson(steps) }}
-      run: echo "$STEPS_CONTEXT"
+      run: |
+        echo "::set-output name=test::hello"
+        echo "$STEPS_CONTEXT"
