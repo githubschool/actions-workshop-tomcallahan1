@@ -6,6 +6,8 @@
 ##########################
 name: CodeQl Analysis 
 
+permissions:
+   security-events: write
 #
 # Documentation:
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions
