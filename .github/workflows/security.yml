@@ -4,7 +4,7 @@
 ## CodeQL Security Scan ##
 ##########################
 ##########################
-name: CodeQl Analysis
+name: CodeQl Analysis 
 
 #
 # Documentation:
