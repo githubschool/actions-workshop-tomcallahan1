@@ -70,6 +70,7 @@ jobs:
           path: test.txt
   
   download-artifact:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       # Download an artifact from GitHub
