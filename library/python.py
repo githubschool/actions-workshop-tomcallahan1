@@ -197,3 +197,4 @@ if __name__ == "__main__":
     # Pylint doesn't know that @click.command takes care of injecting the
     # function parameters. Disabling Pylint error.
     copy_labels()  # pylint: disable=no-value-for-parameter
+    print("test!")
